@@ -287,8 +287,9 @@ define([
             var options = {
                 availableTags: tagArray,
                 autocomplete: {
-                    delay: 0,
-                    minLength: 2147483647
+                    disabled: true
+                    // delay: 0,
+                    // minLength: this.autocompleteMinLength
                 },
                 enableCreate: this.enableCreate,
                 showAutocompleteOnFocus: this.showAutoCompleteOnFocus,
